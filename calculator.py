@@ -1,8 +1,8 @@
 print("Willkommen ")
 while True:
-    zahl1 = int(input("Erste Zahl: "))
+    zahl1 = float(input("Erste Zahl: "))
 
-    zahl2 = int(input("Zweite Zahl: "))
+    zahl2 = float(input("Zweite Zahl: "))
 
     rechenart = input("Welche Rechenart? + oder - oder * oder / : ")
 
