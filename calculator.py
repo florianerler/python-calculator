@@ -1,8 +1,12 @@
 print("Willkommen ")
 while True:
-    zahl1 = float(input("Erste Zahl: "))
+    try:
+        zahl1 = float(input("Erste Zahl: "))
 
-    zahl2 = float(input("Zweite Zahl: "))
+        zahl2 = float(input("Zweite Zahl: "))
+    except(ValueError):
+        print("Die Eingabe muss eine Zahl sein. ")
+        continue
 
     rechenart = input("Welche Rechenart? + oder - oder * oder / : ")
 
@@ -19,4 +23,5 @@ while True:
             print("Ergebnis:", zahl1 / zahl2)
     else:
         print("Diese Rechenart kenne ich noch nicht!")
+    
 
