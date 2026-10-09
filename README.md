@@ -8,7 +8,7 @@ The project is continuously improved to explore fundamental programming concepts
 
 ## Features
 
-**Current version: v1.1**
+**Current version: v1.2**
 
 - Addition (+)
 - Subtraction (-)
@@ -18,6 +18,9 @@ The project is continuously improved to explore fundamental programming concepts
 - Division-by-zero protection
 - Detection of unsupported arithmetic operators
 - Continuous calculations using a loop
+- Input Validation using try/except
+- Error handling for invalid numeric Inputs
+- Automatic restart of input after ValueError
 
 ## Getting Started
 
@@ -40,11 +43,17 @@ The project is continuously improved to explore fundamental programming concepts
 
 - [x] **v1.0** – Basic calculator with four arithmetic operations
 - [x] **v1.1** – Support for decimal numbers
-- [ ] **v1.2** – Input validation and error handling
+- [x] **v1.2** – Input validation and error handling
 - [ ] **v1.3** – Option to exit the calculator
 - [ ] **v2.0** – Advanced mathematical operations
 
 ## Changelog
+
+### v1.2 – Input Validation
+- Added exception handling using try and except
+- Prevented crashes caused by invalid numeric inputs
+- Added automatic retry after invalid input
+- Preserved existing calculator functionality
 
 ### v1.1 – Decimal Number Support
 - Replaced integer input conversion with floating-point conversion
