@@ -8,22 +8,40 @@ The project is continuously improved to explore fundamental programming concepts
 
 ## Features
 
-**Current version: v1.3**
+**Current version: v1.4**
 
-- Addition (+)
-- Subtraction (-)
-- Multiplication (*)
-- Division (/)
-- Support for integers and decimal numbers
-- Division-by-zero protection
-- Detection of unsupported arithmetic operators
-- Continuous calculations using a loop
-- Input Validation using try/except
-- Error handling for invalid numeric Inputs
-- Automatic restart of input after ValueError
-- Exit functionality using 's' at any input stage
-- Welcome screen with version information
-- Goodbye message when exiting the calculator
+# Arithmetic Operations:
+
+-Addition (+ or plus)
+-Subtraction (- or minus)
+-Multiplication (* or mal)
+-Division (/ or dividiert)
+-Exponentiation (** or hoch)
+
+# Mathematical Constants:
+
+-Pi (pi or p)
+-Euler's number (euler or e)
+
+Constants can be used as either the first or second number
+Mathematical constants are provided by Python's built-in math module
+
+# Input Handling:
+
+-Support for integers and decimal numbers
+-Case-insensitive text commands
+-Input validation using try and except
+-Error handling for invalid numeric inputs
+-Automatic restart after invalid numeric input
+-Protection against division by zero
+-Detection of unsupported arithmetic operators
+
+# User Interface:
+
+-Welcome screen displaying the program version and available commands
+-Continuous calculations using a loop
+-Exit functionality using s at any input stage
+-Goodbye message when exiting the calculator
 
 ## Getting Started
 
@@ -48,10 +66,19 @@ The project is continuously improved to explore fundamental programming concepts
 - [x] **v1.1** – Support for decimal numbers
 - [x] **v1.2** – Input validation and error handling
 - [x] **v1.3** – Option to exit the calculator
-- [ ] **v1.4** – Mathematical constants (pi and e)
+- [x] **v1.4** – Mathematical constants (pi and e)
 - [ ] **v2.0** – Advanced mathematical operations
 
 ## Changelog
+
+### v1.4 – Mathematical Expansion
+
+-Added support for mathematical constants pi and Euler's number
+-Introduced exponentiation using ** and hoch
+-Added alternative text commands for arithmetic operations
+-Implemented case-insensitive command handling using .lower()
+-Updated the welcome screen with additional commands
+-Improved user interaction and input flexibility
 
 ### v1.3 – Exit Functionality
 - Added an exit option at all three input stages
