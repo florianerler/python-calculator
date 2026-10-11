@@ -8,7 +8,7 @@ The project is continuously improved to explore fundamental programming concepts
 
 ## Features
 
-**Current version: v1.2**
+**Current version: v1.3**
 
 - Addition (+)
 - Subtraction (-)
@@ -21,6 +21,9 @@ The project is continuously improved to explore fundamental programming concepts
 - Input Validation using try/except
 - Error handling for invalid numeric Inputs
 - Automatic restart of input after ValueError
+- Exit functionality using 's' at any input stage
+- Welcome screen with version information
+- Goodbye message when exiting the calculator
 
 ## Getting Started
 
@@ -44,10 +47,17 @@ The project is continuously improved to explore fundamental programming concepts
 - [x] **v1.0** – Basic calculator with four arithmetic operations
 - [x] **v1.1** – Support for decimal numbers
 - [x] **v1.2** – Input validation and error handling
-- [ ] **v1.3** – Option to exit the calculator
+- [x] **v1.3** – Option to exit the calculator
+- [ ] **v1.4** – Mathematical constants (pi and e)
 - [ ] **v2.0** – Advanced mathematical operations
 
 ## Changelog
+
+### v1.3 – Exit Functionality
+- Added an exit option at all three input stages
+- Added a welcome screen
+- Added a goodbye message
+- Improved user interaction
 
 ### v1.2 – Input Validation
 - Added exception handling using try and except
